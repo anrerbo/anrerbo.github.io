@@ -2,7 +2,7 @@
 
 本博客仅用于 [IT相关技术探讨]。 超出范围的任何问题将不会提及。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+本博客使用## Markdown 方法编写。
 
 ### Markdown
 
@@ -28,10 +28,13 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### 讨论的技术内容
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anrerbo/anrerbo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* 服务端相关：C#, JAVA, PYTHON, etc.
+* 浏览器前端：js, css, html, mvvm, etc.
+* 客户端原生：Android, iOS, WindowsApp
+* 其他：大数据、AI etc.
 
-### Support or Contact
+### 支持和联系
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+本博客可直接回复。你也可以给我发email: anrerbo@gmail.com
