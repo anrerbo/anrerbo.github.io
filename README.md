@@ -1,6 +1,11 @@
 ## 2017-05-28 周日
 ```markdown
 今日正式入坑 electron
+1、更换源：npm install -g cnpm --registry=https://registry.npm.taobao.org
+2、安装： npm install -g electron
+3、查看： electron -v
+4、安装打包器： npm install -g electron-packager
+5、开始愉快的coding吧……
 ```
 
 
