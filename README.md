@@ -1,3 +1,6 @@
+## 2018-01-29 周一
+T4插件：https://www.devart.com/t4-editor/download.html
+
 ## 2018-01-18 周四
 命令行修改默认编码为UTF-8
 cmd进入后，输入：
