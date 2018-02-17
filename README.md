@@ -17,6 +17,20 @@ sudo apt-get install winehq-devel
 
 QQ自然就有了，请按super键输入QQ。
 
+### 安装nodejs for Ubuntu
+1、下载后，解压：tar -xJf node-v8.9.4-linux-x64.tar.xz 
+2、移动到opt：sudo mv node-v8.9.4-linux-x64 /opt/
+3、加入系统目录：sudo ln -s /opt/node-v8.9.4-linux-x64/bin/node /usr/local/bin/node 
+sudo ln -s /opt/node-v8.9.4-linux-x64/bin/npm /usr/local/bin/npm
+4、测试：npm -v；node -v
+
+### 安装vscode for Ubuntu
+1、一定要下载压缩包：https://code.visualstudio.com/docs?dv=linux64
+2、解压后移动：sudo mv VSCode-linux-x64 /usr/local/
+3、权限：chmod +x /usr/local/VSCode-linux-x64/code
+4、直接打开：打开文件浏览器，导向位置：/usr/local/VSCode-linux-x64，直接双击code打开。
+
+
 ## 2018-01-29 周一
 T4插件：https://www.devart.com/t4-editor/download.html
 
