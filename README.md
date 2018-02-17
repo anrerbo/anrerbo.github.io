@@ -8,6 +8,11 @@
 
 4、安装chrome：sudo apt-get install google-chrome-stable
 
+### Ubuntu修改启动默认项
+sudo  nano /etc/default/grub
+
+修改完毕后记住更新：sudo update-grub
+
 ### Ubuntu安装QQ
 1、安装wine：sudo add-apt-repository ppa:wine/wine-builds  
 sudo apt-get update
