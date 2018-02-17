@@ -1,3 +1,17 @@
+## 2018-02-18 大年初三
+### Ubuntu安装chrome
+1、加入apt：sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+2、导入公钥：wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+3、update：sudo apt-get update
+4、安装chrome：sudo apt-get install google-chrome-stable
+
+### Ubuntu安装QQ
+1、安装wine：sudo add-apt-repository ppa:wine/wine-builds  
+sudo apt-get update
+sudo apt-get install winehq-devel
+2、下载wineQQ8.9_19990.tar.xz，解压到根目录：tar xvf wineQQ8.9_19990.tar.xz -C ~/
+QQ自然就有了，请按super键输入QQ。
+
 ## 2018-01-29 周一
 T4插件：https://www.devart.com/t4-editor/download.html
 
