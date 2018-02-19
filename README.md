@@ -1,4 +1,8 @@
 ## 2018-02-18 大年初三
+### Ubuntu和Windows时区不一致
+简单一点来说，是由于Ubuntu和windows对待时区的方式不一致造成的。可以修改windows或者修改Ubuntu。
+修改windows：HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation，新建DWORD的键名为RealTimeIsUniversal，值为1。
+
 ### Ubuntu安装chrome
 1、加入apt：sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
 
