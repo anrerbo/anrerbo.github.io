@@ -1,3 +1,6 @@
+## 2018-03-23 周五
+Server 2008 R2 180天密钥：7PJBC-63K3J-62TTK-XF46D-W3WMD
+
 ## 2018-02-18 大年初三
 ### Ubuntu和Windows时区不一致
 简单一点来说，是由于Ubuntu和windows对待时区的方式不一致造成的。可以修改windows或者修改Ubuntu。
