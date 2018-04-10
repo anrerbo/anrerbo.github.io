@@ -1,3 +1,16 @@
+## 2018-04-10 周二
+### 完整安装SharePoint2010。
+完成后先不要运行配置向导。
+配置数据库。SharePoint会安装一个POWERSHELL在这里14\CONFIG\POWERSHELL\Registration。运行该目录下的psconsole会打开一个命令行窗口。执行
+
+- New-SPConfigurationDatabase【回车】
+- DatabaseName <config database name>
+- DatabaseServer <servername> 【注意这里必须是机器名，请右键电脑查看机器名】
+- FarmCredentials 【本地管理员密码】注意此处的用户名必须是【机器名\用户名】的格式
+- passphrase:【输入配置数据场安全密码，这是创建新场及以后新服务器加入场时所必需的，回车,等待创建】
+
+运行配置向导：选择不断开与服务器场的连接，然后下一步直到完成。
+
 ## 2018-03-31 周六
 MySQL默认用户不能远程登录的。所以新建用户并分配了库权限后，请修改mysql库中的user表，将新建用户那条记录的Host字段修改为%，并运行脚本刷新权限：
 FLUSH PRIVILEGES;
