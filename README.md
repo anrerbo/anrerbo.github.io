@@ -6,6 +6,14 @@
 - 关闭防火墙：ufw disable 
 - 安装dotnet core：dotnet.githu.io
 - 测试dotnet core：上传一个测试一下呗
+server {
+      listen       80;
+      server_name  xx.xx.com;
+      location / {
+          proxy_pass   http://xx.xx:3003/;
+          autoindex  on;
+      }
+}
 
 ## 2018-04-10 周二
 ### 完整安装SharePoint2010。
