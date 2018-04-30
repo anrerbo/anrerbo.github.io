@@ -1,3 +1,12 @@
+## 2018-05-1 周一
+### 开始配置新的ubuntu
+- 选择版本：16.04，桌面或服务器都可以
+- 开启ssh：sudo apt-get install openssh-server
+- 修改ssh端口号：vi /etc/ssh/sshd_config，修改22为其他的
+- 关闭防火墙：ufw disable 
+- 安装dotnet core：dotnet.githu.io
+- 测试dotnet core：上传一个测试一下呗
+
 ## 2018-04-10 周二
 ### 完整安装SharePoint2010。
 完成后先不要运行配置向导。
