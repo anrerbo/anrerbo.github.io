@@ -1,3 +1,9 @@
+## 2018-05-25 周五
+### 开始weex
+- http://weex.apache.org/cn/guide/integrate-to-your-app.html
+- 目标：weex集成到现有APP，用weex编写一个网页，并同时用在android APP，微信（网页），微信小程序中
+- 持续更新
+
 ## 2018-05-10 周四
 ### ubuntu启动菜单顺序修改
 - 改了好几次，都没生效。今天终于找对地方了
