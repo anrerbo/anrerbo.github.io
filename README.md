@@ -1,3 +1,9 @@
+## 2018-06-04 周一
+### 万恶的搜索引擎
+居然连asp.net core signalR都搜不到……我也是无语了。
+也有可能是core的更新太快了吧￢_￢
+这里是官方地址：https://docs.microsoft.com/en-us/aspnet/core/signalr/javascript-client?view=aspnetcore-2.1
+
 ## 2018-05-25 周五
 ### 开始weex
 - http://weex.apache.org/cn/guide/integrate-to-your-app.html
