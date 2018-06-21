@@ -1,3 +1,10 @@
+## 2018-06-21 周四
+### Gitlab汉化
+git地址：https://gitlab.com/xhang/gitlab
+1. git clone https://gitlab.com/xhang/gitlab
+1. cat /opt/gitlab/embedded/service/gitlab-rails/VERSION
+1. 得到
+
 ## 2018-06-04 周一
 ### 万恶的搜索引擎
 居然连asp.net core signalR都搜不到……我也是无语了。
