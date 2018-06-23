@@ -1,9 +1,15 @@
+## 2018-06-23 周六
+### 新安装CentOS
+直接在公网托管的机器上安装
+1. 静态地址：编辑/etc/sysconfig/network-scripts/下的以太网卡（一般是ifcfg-eth0）。修改后用service network restart重启服务。用ip addr查看。
+1. 设置防火墙
+1. 启用ssh
+
 ## 2018-06-21 周四
 ### Gitlab汉化
 git地址：https://gitlab.com/xhang/gitlab
 1. git clone https://gitlab.com/xhang/gitlab
 1. cat /opt/gitlab/embedded/service/gitlab-rails/VERSION
-1. 得到
 
 ## 2018-06-04 周一
 ### 万恶的搜索引擎
