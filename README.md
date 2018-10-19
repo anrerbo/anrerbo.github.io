@@ -1,3 +1,21 @@
+## centos安装docker
+~~~
+cat >>/etc/yum.repos.d/docker.repo<<EOF
+[docker-ce-edge]
+name=Docker CE Edge - \$basearch
+baseurl=https://mirrors.aliyun.com/docker-ce/linux/centos/7/\$basearch/edge
+enabled=1
+gpgcheck=1
+gpgkey=https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
+EOF
+~~~
+- 安装docker
+yum -y install docker-ce
+
+- 设置启动
+systemctl enable docker
+systemctl start docker
+
 ## 2018-06-23 周六
 ### 新安装CentOS
 直接在公网托管的机器上安装
