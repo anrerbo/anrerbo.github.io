@@ -1,3 +1,6 @@
+## Mac相关
+- 解除软件限制：sudo spctl --master-disable
+
 ## centos安装docker
 ~~~
 cat >>/etc/yum.repos.d/docker.repo<<EOF
